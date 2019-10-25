@@ -1,0 +1,148 @@
+body {
+  background-image: url(/images/checkerboard.png);
+  background-position: 50% 50%;
+  background-size: cover; }
+  body .page-footer .footer-copyright {
+    position: fixed;
+    bottom: 0;
+    background-color: #d60000;
+    width: 1000cm; }
+  body .flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    body .flex-container .navbardiv {
+      background-color: #d60000;
+      height: 4cm;
+      width: 100%;
+      position: fixed;
+      top: 0; }
+      body .flex-container .navbardiv nav {
+        width: 100%;
+        height: 5cm;
+        font-size: 24px;
+        font-style: oblique;
+        text-align: center; }
+        body .flex-container .navbardiv nav .navfont {
+          color: white; }
+        body .flex-container .navbardiv nav p {
+          margin-top: -46px;
+          color: white; }
+        body .flex-container .navbardiv nav a:link {
+          padding: 11px 115px; }
+        body .flex-container .navbardiv nav img {
+          width: 174px;
+          height: 4cm; }
+    body .flex-container .logodiv {
+      margin-top: 4cm; }
+      body .flex-container .logodiv .logo {
+        margin-top: 7px;
+        width: 400px;
+        height: 300px; }
+    body .flex-container .introclipdiv {
+      height: 700px; }
+      body .flex-container .introclipdiv .introclip {
+        width: 1080px;
+        height: 600px;
+        margin-top: 8px; }
+    body .flex-container .indeximg {
+      width: 1800px;
+      height: 946px;
+      text-align: center; }
+      body .flex-container .indeximg .figpics {
+        float: left;
+        width: 900px;
+        height: 450px; }
+  body #map {
+    margin-top: 170px; }
+
+body .page-footer .footer-copyright {
+  position: fixed;
+  bottom: 0;
+  background-color: #d60000;
+  width: 1000cm; }
+
+body .about-flex-container {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  body .about-flex-container .navbardiv {
+    background-color: #d60000;
+    height: 4cm;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+    body .about-flex-container .navbardiv nav {
+      width: 100%;
+      height: 5cm;
+      font-size: 24px;
+      font-style: oblique;
+      text-align: center; }
+      body .about-flex-container .navbardiv nav .navfont {
+        color: white; }
+      body .about-flex-container .navbardiv nav p {
+        margin-top: -46px;
+        color: white; }
+      body .about-flex-container .navbardiv nav a:link {
+        padding: 11px 115px; }
+      body .about-flex-container .navbardiv nav img {
+        width: 174px;
+        height: 4cm; }
+  body .about-flex-container .article {
+    margin-top: 163px;
+    background-color: white; }
+    body .about-flex-container .article .articlestyle #aboutusp {
+      font-size: 24px;
+      color: black;
+      word-wrap: break-word; }
+
+body .menu-flex-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  body .menu-flex-container .navbardiv {
+    background-color: #d60000;
+    height: 4cm;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+    body .menu-flex-container .navbardiv nav {
+      width: 100%;
+      height: 5cm;
+      font-size: 24px;
+      font-style: oblique;
+      text-align: center; }
+      body .menu-flex-container .navbardiv nav .navfont {
+        color: white; }
+      body .menu-flex-container .navbardiv nav p {
+        margin-top: -46px;
+        color: white; }
+      body .menu-flex-container .navbardiv nav a:link {
+        padding: 11px 115px; }
+      body .menu-flex-container .navbardiv nav img {
+        width: 174px;
+        height: 4cm; }
+
+body #specialpizzas {
+  margin-top: 168px;
+  background-color: white;
+  height: 305px; }
+  body #specialpizzas .specialpizzas {
+    float: left;
+    margin-left: 20px; }
+  body #specialpizzas div {
+    word-wrap: break-word;
+    float: left; }
+    body #specialpizzas div img {
+      width: 100px; }
+
+body #otherpizzas {
+  background-color: white; }
+
+@media only screen and (max-width:768px){
+    .navebardiv{
+        padding:0;
+    }
+}

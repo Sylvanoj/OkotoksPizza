@@ -1,0 +1,200 @@
+body{
+    background-image:url(/images/checkerboard.png);
+    background-position: 50% 50%;
+    background-size: cover;
+
+    .page-footer{
+        .footer-copyright{
+            position:fixed;
+            bottom: 0;
+            background-color:#d60000;
+            width:1000cm;
+        }
+    }
+    .flex-container{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+        .navbardiv{
+            background-color:#d60000;
+            height:4cm;
+            width:100%;
+            position:fixed;
+            top:0;
+
+
+            nav{
+                width:100%;
+                height:5cm;
+                font-size:24px;
+                font-style:oblique;
+                text-align:center;
+                .navfont{
+                    color: white;
+                }
+                p{
+                    margin-top:-46px;
+                    color: white;
+                }
+                a:link{
+                    padding:11px 115px;
+                }
+                img{
+                    width:174px;
+                    height:4cm;
+                }
+            }
+        }
+        .logodiv{
+            margin-top:4cm;
+            .logo{
+                margin-top:7px;
+                width:400px;
+                height:300px;
+            }
+        }
+        .introclipdiv{
+            height:700px;
+            .introclip{
+                width:1080px;
+                height:600px;
+                margin-top:8px;
+            }
+        }
+        .indeximg{
+            width:1800px;
+            height:946px;
+            text-align:center;
+            .figpics{
+                float: left;
+                width:900px;
+                height:450px;
+                // border:1px;
+                // padding: 5px;
+            }
+        }
+    }
+    #map{
+        margin-top: 170px;
+    }
+}
+
+body{
+    .page-footer{
+        .footer-copyright{
+            position:fixed;
+            bottom: 0;
+            background-color:#d60000;
+            width:1000cm;
+        }
+    }
+    .about-flex-container{
+        height:1000px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+        .navbardiv{
+            background-color:#d60000;
+            height:4cm;
+            width:100%;
+            position:fixed;
+            top:0;
+
+
+            nav{
+                width:100%;
+                height:5cm;
+                font-size:24px;
+                font-style:oblique;
+                text-align:center;
+                .navfont{
+                    color: white;
+                }
+                p{
+                    margin-top:-46px;
+                    color: white;
+                }
+                a:link{
+                    padding:11px 115px;
+                }
+                img{
+                    width:174px;
+                    height:4cm;
+                }
+            }
+        }
+        .article{
+            margin-top: 163px;
+            background-color: white;
+            .articlestyle{
+                #aboutusp{
+                    font-size: 24px;
+                    color: black;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}
+
+body{
+    .menu-flex-container{
+        height:100%;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+
+        .navbardiv{
+            background-color:#d60000;
+            height:4cm;
+            width:100%;
+            position:fixed;
+            top:0;
+
+
+            nav{
+                width:100%;
+                height:5cm;
+                font-size:24px;
+                font-style:oblique;
+                text-align:center;
+                .navfont{
+                    color: white;
+                }
+                p{
+                    margin-top:-46px;
+                    color: white;
+                }
+                a:link{
+                    padding:11px 115px;
+                }
+                img{
+                    width:174px;
+                    height:4cm;
+                }
+            }
+        }
+
+    }
+    #specialpizzas{
+        margin-top:168px;
+        background-color: white;
+        height: 305px;
+        .specialpizzas{
+            float: left;
+            margin-left: 20px;
+        }
+        div{
+            word-wrap: break-word;
+            float:left;
+            img{
+                width:100px;
+            }
+        }
+    }
+    #otherpizzas{
+        background-color: white;
+    }
+}
